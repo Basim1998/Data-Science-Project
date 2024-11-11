@@ -46,3 +46,11 @@ Provide a link or description of the data source. For example:
    ```bash
    git clone https://github.com/your-username/book-price-prediction.git
    cd book-price-prediction
+
+
+2. **Create a Virtual Environment**
+
+   ``` bash
+   python3 -m venv env
+   source env/bin/activate  # On Windows, use `env\Scripts\activate`
+
