@@ -68,3 +68,10 @@ Provide a link or description of the data source. For example:
 
 > The **Random Forest Regressor** achieved the best performance, with an R² score of 0.92, outperforming other models in accuracy and generalization.
 
+
+# Book Price Prediction Project
+
+![Book Price Prediction](four.png)
+
+This project uses a Random Forest Regressor to predict book prices. Results are compared across multiple models to evaluate performance and accuracy.
+
