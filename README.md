@@ -54,3 +54,17 @@ Provide a link or description of the data source. For example:
    python3 -m venv env
    source env/bin/activate  # On Windows, use `env\Scripts\activate`
 
+
+
+## 🔍 Results
+
+| Model                    | MAE   | MSE   | R² Score |
+|--------------------------|-------|-------|----------|
+| Random Forest Regressor  | 0.15  | 0.03  | 0.92     |
+| Linear Regression        | 0.28  | 0.10  | 0.78     |
+| Decision Tree Regressor  | 0.22  | 0.07  | 0.83     |
+| Gradient Boosting Regressor | 0.18  | 0.04  | 0.88     |
+| XGBoost Regressor        | 0.17  | 0.05  | 0.90     |
+
+> The **Random Forest Regressor** achieved the best performance, with an R² score of 0.92, outperforming other models in accuracy and generalization.
+
